@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    background-color: var(--dark-color)
+}
+ul li{
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.active{
+    color: var(--green-color);
+}
+.nav-item .active{
+    color: var(--green-color);
+}
+.search{
+    color: var(--green-color);
+    border-left: 2px solid var(--green-color);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.land{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 72px);
+}
+.line{
+    width: 60px;
+    height: 2px;
+    background-color: var(--green-color);
+    margin: auto;
+    display: block;
+
+}
+.icon-future{
+    height: 170px;
+}
+.number{
+    font-size: 12rem;
+    color: var(--section-color);
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+
+}
+.mark{
+    font-size: 70px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    color: var(--green-color);
+    background-color:transparent;
+}
+.galary{
+    background-color: var(--section-color);
+}
+.active-a{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+}
+.active-a:hover{
+    color:#ffc400}
+.list ul  li a:not(.active-a){
+    color: black;
+    
+}
+.list ul li a:not(.active-a):hover{
+    color: var(--red-color);
+}
+.layer{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.full-width{
+    width: 0;
+
+}
+.team{
+    background-color: var(--section-color);
+}
+.project{
+    background-color: var(--dark-color);
+}
+.subscrib-input{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscrib-input:focus{
+    outline: none;
+}
+.footer {
+    background-color: var(--dark-color);
+  }
+  .footer .copyright > span {
+    color: var(--green-color);
+  }
+  .footer .copyright div span {
+    color: var(--yellow-color);
+  }
+  .footer .contact ul svg {
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+  }
+  .footer .contact ul svg:hover{
+      transform: rotate(720deg);
+      transition: 1s;
+  }
+  .footer .facebook {
+    background-color: #1877f2;
+  }
+  .footer .twitter {
+    background-color: #1da1f2;
+  }
+  .footer .linkedin {
+    background-color: #0077b5;
+  }
+  .footer .youtube {
+    background-color: #ff0000;
+  }
